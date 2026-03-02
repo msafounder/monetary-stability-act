@@ -1,0 +1,16 @@
+# secrets / keys
+*.env
+*.key
+*.pem
+*.p12
+*.keystore
+msa-deployer.json
+id_rsa
+id_ed25519
+
+# artifacts (publish as Releases, not commits)
+artifacts/
+
+# misc
+node_modules/
+.DS_Store
